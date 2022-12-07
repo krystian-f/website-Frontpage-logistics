@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logistics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+<link rel="stylesheet" href="style.css">
+  <script src="app.js" defer type="module"></script>
+</head>
+<body>
+
+  <div class="wrapper">
+<!-- Navigation -->
+    <div class="section-block--wide section--light-mode">
+      <nav class="main-navigation section-block">
+        <a href="#" class="main-navigation__logo">
+            <img src="img/logo.png" alt="logo" class="logo-img">
+            <h1 class="logo-header">SuperDeliveries</h1>
+        </a>        
+
+        <div class="main-navigation__navigation">
+          <ul class="navigation__list navigation__list-js">
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Home</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">About</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Pricing</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Delivery</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="navigation__hamburger navigation__hamburger-js">
+            <span class="navigation__bar"></span>
+            <span class="navigation__bar"></span>
+            <span class="navigation__bar"></span>
+          </div>
+        </div>
+      </nav>  
+      <div class="header__slider">
+        
+      </div>    
+    </div>
+<!-- End navigation -->
+<!-- Header -->
+    <div class="section-block--wide section--light-mode">
+      <header class="main-header section-block">
+        <!-- Slider -->
+        <div class="container-slider">
+          <div class="slides">
+            <div class="slide">
+              <img src="img/slider-1.jpg" alt="slider 1" srcset="" class="slide-img">
+            </div>
+            <div class="slide">
+            <img src="img/slider-2.jpg" alt="" srcset="" class="slide-img">
+            </div>
+            <div class="slide">
+            <img src="img/slider-3.jpg" alt="" srcset="" class="slide-img">   
+            </div>
+          </div>
+    
+          <button class="btn-slide btn-prev">
+            <span class="material-symbols-outlined btn-slide-symbol">
+              arrow_back
+              </span>
+          </button>
+    
+          <button class="btn-slide btn-next">
+            <span class="material-symbols-outlined btn-slide-symbol">
+              arrow_forward
+              </span>
+          </button>
+    
+    
+          <div class="container-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <!-- End Slider -->
+        <!-- Search Box -->
+        <div class="search-box">
+          <p class="search-text">Where is my parcel?</p>  
+          <div class="search__input-box">
+            <input type="search" name="search__input" id="search__input" class="search__input" placeholder="Parcel number...">
+            <label for="search__input" class="search__label">Search</label> 
+          </div>        
+        </div>
+        <!--End Search Box -->
+      </header>      
+    </div>
+<!-- End header -->
+<!-- Transport -->
+    <div class="section-block--wide section--dark-mode">
+      <section class="transport section-block">
+          <div class="transport__box">
+            <div class="transport__icon">
+              <img src="img/truck.png" alt="truck" class="transport__img">
+            </div>
+            <div class="transport__content">
+              <h1 class="transport__header">Land</h1>
+              <p class="transport__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet enim vitae magnam labore doloremque dolorem?</p>
+              <button class="transport__btn">
+                More
+                <span class="material-symbols-outlined transport__arrow">arrow_circle_right</span>
+              </button>
+            </div>
+          </div>
+          <div class="transport__box">
+            <div class="transport__icon">
+              <img src="img/plane.png" alt="plane" class="transport__img">
+            </div>
+            <div class="transport__content">
+              <h1 class="transport__header">Air</h1>
+              <p class="transport__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet enim vitae magnam labore doloremque dolorem?</p>
+              <button class="transport__btn">
+                More
+                <span class="material-symbols-outlined transport__arrow">arrow_circle_right</span>
+              </button>
+            </div>
+          </div>
+          <div class="transport__box">
+            <div class="transport__icon">
+              <img src="img/ship.png" alt="ship" class="transport__img">
+            </div>
+            <div class="transport__content">
+              <h1 class="transport__header">Sea</h1>
+              <p class="transport__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet enim vitae magnam labore doloremque dolorem?</p>
+              <button class="transport__btn">
+                More
+                <span class="material-symbols-outlined transport__arrow">arrow_circle_right</span>
+              </button>
+            </div>
+          </div>
+
+      </section>
+    </div>
+<!-- Transport End -->
+<!-- About -->
+    <div class="section-block--wide section--light-mode">
+      <section class="about section-block">
+        <h2 class="about__main-header">About us</h2>
+        <div class="about__content">
+          <div class="about__categories">
+              <div class="about__category about__category-storage active" data-tab-target="#storage">
+                <div class="about__category-img">
+                  <img src="img/about_ico_storage.png" alt="about storage" class="about-img">
+                </div>
+                <div class="about__category-content">
+                  <h3 class="about__category-header">Storage</h3>
+                  <p class="about__category-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur qui animi perferendis beatae, quos eaque enim eius molestias ipsa cum.</p>
+                </div>
+              </div>
+              <div class="about__category about__category-transport" data-tab-target="#delivery">
+                <div class="about__category-img">
+                  <img src="img/about_ico_delivery.png" alt="about transport" class="about-img">
+                </div>
+                <div class="about__category-content">
+                  <h3 class="about__category-header">Deliveries</h3>
+                  <p class="about__category-text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur qui animi perferendis beatae, quos eaque enim eius molestias ipsa cum.</p>
+                </div>
+              </div>
+              <div class="about__category about__category-logistics" data-tab-target="#logistics">
+                <div class="about__category-img">
+                  <img src="img/about_ico_logistics.png" alt="about logistics" class="about-img">
+                </div>
+                <div class="about__category-content">
+                  <h3 class="about__category-header">Logistics</h3>
+                  <p class="about__category-text">Lorem adipisicing elit. Tenetur qui animi perferendis beatae, quos eaque enim eius molestias ipsa cum.</p>
+                </div>
+              </div>
+          </div>
+          <div class="about__images">
+            <img src="img/about_storage.jpg" alt="about storage" class="about__img-modal about__img-storage active" id="storage">
+            <img src="img/about_delivery.jpg" alt="about delivery" class="about__img-modal about__img-delivery" id="delivery">
+            <img src="img/about_logistics.jpg" alt="about logistics" class="about__img-modal about__img-logistics" id="logistics">
+
+          </div>
+        </div>
+      </section>
+    </div>
+<!-- About end -->
+<!-- Pricing -->
+    <div class="section-block--wide section--dark-mode">
+      <section class="pricing section-block">
+
+          <div class="pricing__sizes">
+            <div class="pricing__size pricing__size-s pricing__size-js pricing-box">
+              <p class="size__dimensions">xx to xx</p>
+              <p class="size__label">S</p>
+            </div>
+            <div class="pricing__size pricing__size-m pricing__size-js pricing-box">
+              <p class="size__dimensions">xx to xx</p>
+              <p class="size__label">M</p>
+            </div>
+            <div class=" pricing__size pricing__size-l pricing__size-js pricing-box">
+              <p class="size__dimensions">xx to xx</p>
+              <p class="size__label">L</p>
+            </div>
+            <div class="pricing__size pricing__size-xl pricing__size-js pricing-box">
+              <p class="size__dimensions">xx to xx</p>
+              <p class="size__label">XL</p>
+            </div>
+          </div>
+          <div class="pricing__speed">
+            <div class="pricing-box speed__box speed__normal">Normal Delivey</div>
+            <div class="pricing-box speed__box speed__fast">Fast Delivery</div>
+          </div>
+          <div class="pricing__price">
+            <h3 class="pricing__sum"></h3>
+          </div>
+          <button class="pricing__submit">Submit</button>
+          <div class="pricing__individual">
+            <div class="pricing__individual-content">
+              <h2 class="pricing__individual-header">Individual pricing</h2>
+              <p class="pricing__individual-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ut impedit ullam reiciendis maiores voluptatem iure quis esse quos magnam!</p>
+            </div>
+            <div class="pricing__individual-contact">
+              <div class="pricing__contact">
+                <a href="tel:+1123-456-7890" class="pricing__contact-number">
+                  <span class="material-symbols-outlined pricing__contact-ico">call</span> 
+                  123-456-7890</a>
+              </div>
+            </div>
+          </div>
+      </section>
+    </div>
+<!-- Pricing end -->
+<!-- Reviews -->
+    <div class="section-block--wide section--light-mode">
+      <section class="reviews section-block">
+        <h2 class="reviews__header">Our clients opinions</h2>
+        <div class="reviews__carousel-container">
+          <button class="reviews__btn reviews__prev">
+            <span class="material-symbols-outlined">
+              arrow_back
+            </span>
+          </button>
+          <div class="reviews__container">
+            <!-- <div class="review__box review">
+              <img src="./profiles/profile-1.png" class="review__img" alt="profile image">
+              <div class="review__name">John Doe</div>
+              <div class="review__score">*****</div>
+              <div class="review__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi magnam quos laudantium iste illo commodi, possimus eum laboriosam quasi recusandae.</div>
+            </div>
+            -->
+          </div>
+          <button class="reviews__btn reviews__next">
+            <span class="material-symbols-outlined">
+              arrow_forward
+            </span>
+          </button>
+        </div>
+      </section>
+    </div>
+<!-- Reviews end -->
+<!-- Footer -->
+    <footer class="main-footer section-block--wide">
+      <div class="footer__content section-block">
+        <div class="footer__description">
+          <div class="footer__logo">
+            <a href="#" class="footer__header">
+              <img src="./img/logo.png" alt="footer logo" class="footer__logo-img">
+              <h3 class="footer__logo-header">SuperDeliveries</h3>
+            </a> 
+          </div>
+            <p class="footer__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi velit praesentium quia minima iusto aliquid amet reiciendis animi accusamus esse ipsa, magnam maxime pariatur, laudantium soluta? Animi dolores distinctio eveniet obcaecati ad iusto atque expedita delectus, odio cumque. Doloremque, illum.</p>
+        </div>
+        <div class="footer__quick-links">
+          <h3 class="quick-links-header">Quick links</h3>
+          <ul class="quick-links-list">
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 1</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 2</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 3</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 4</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 5</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 4</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 5</a></li>
+          </ul>
+        </div>
+        <div class="footer__navigation footer__quick-links">
+          <h3 class="quick-links-header footer__navigation-header">Navigation</h3>
+          <nav class="footer__nav">
+          <ul class="quick-links-list">
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 1</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 2</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 3</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 4</a></li>
+            <li class="quick-links-link"><a href="#" class="footer__links">Link 5</a></li>
+          </ul>            
+          </nav>
+        </div>
+  
+      </div>
+      <div class="footer__copyrights section-block--wide">
+        <p class="website-copyright">© 2022 Krystian Fila. All rights reserved</p>
+      </div>
+    </footer>      
+<!-- Footer End -->
+  </div>  
+</body>
+</html>

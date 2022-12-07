@@ -1,0 +1,10 @@
+{
+"reviews": [
+  {"profileImg": "./profiles/profile-1.png", "name":"John Doe", "score":"5", "review": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi magnam quos laudantium iste illo commodi, possimus eum laboriosam quasi recusandae."},
+  {"profileImg": "./profiles/profile-2.png", "name":"Marcus Smith", "score":"4", "review": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi magnam quos laudantium iste illo commodi."},
+  {"profileImg": "./profiles/profile-3.png", "name":"Kayle Wong", "score":"5", "review": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi magnam quos laudantium iste illo commodi, possimus eum."},
+  {"profileImg": "./profiles/profile-4.png", "name":"Darius Graves", "score":"5", "review": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi magnam quos laudantium iste."},
+  {"profileImg": "./profiles/profile-5.png", "name":"Paul Surman", "score":"4", "review": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi magnam quos laudantium iste illo commodi, possimus eum laboriosam quasi."},
+  {"profileImg": "./profiles/profile-6.png", "name":"Karin White", "score":"4", "review": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi magnam quos laudantium iste illo commodi, possimus."}
+]
+}
